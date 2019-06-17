@@ -1,0 +1,24 @@
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+.indexbg .swipe { overflow: hidden; visibility: hidden; position: relative; width: 100%; }
+.indexbg .swipe img{ width: 100%; }
+.indexbg .swipe-wrap { overflow: hidden; position: relative; }
+.indexbg .swipe-wrap > div { float:left; width:100%; position: relative; }
+.indexbg .circles{ height: 8px; position: absolute; bottom: 16px; left: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
+.indexbg .circles ul{ list-style: none; }
+.indexbg .circles ul li{ float: left; width: 8px; height: 8px; background:#a5a5a5; margin-right: 10px; border-radius:50%; border:none; padding: 0; }
+.indexbg .circles ul li.cur{  border: 1px solid #B51C1E; box-sizing:border-box; }
+
+table,tbody,tr,td{ display:block;}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace=" com.zls.myshop.web.ui.Dao.IndexDao">
+
+    <select id="selectByTbContent" resultType="TbContent">
+     SELECT
+      `id`,
+      `category_name` AS  categoryName,
+      `title`,
+      `title_desc` AS titleDesc,
+      `url`,
+      `pic`,
+      `created`,
+      `updated`
+     FROM
+     `tb_contents`
+     WHERE
+        `category_name`=#{categoryName}
+
+
+    </select>
+</mapper>
